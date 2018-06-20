@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{86FB06AD-52A7-4414-B6CA-CC087CB8BB38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationsApi", "ApplicationsApi", "{26FB93D0-FC0D-44FB-8C22-D3710B5066FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationsService", "ApplicationsService", "{CF5D2263-114B-47E8-BAEB-BFB284203817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPage", "WebPage\WebPage.csproj", "{F8124F38-1974-40CB-93F1-315880F09E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8124F38-1974-40CB-93F1-315880F09E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8124F38-1974-40CB-93F1-315880F09E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8124F38-1974-40CB-93F1-315880F09E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8124F38-1974-40CB-93F1-315880F09E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8124F38-1974-40CB-93F1-315880F09E23} = {86FB06AD-52A7-4414-B6CA-CC087CB8BB38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F17621D1-1AF8-4E2F-856E-13CFAAC01648}
+	EndGlobalSection
+EndGlobal
