@@ -142,6 +142,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ComManage\ComManageAreaRegistration.cs" />
+    <Compile Include="Areas\SysManage\SysManageAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,6 +161,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Areas\ComManage\Views\web.config" />
+    <Content Include="Areas\SysManage\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -187,6 +191,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\ComManage\Controllers\" />
+    <Folder Include="Areas\ComManage\Models\" />
+    <Folder Include="Areas\ComManage\Views\Shared\" />
+    <Folder Include="Areas\SysManage\Controllers\" />
+    <Folder Include="Areas\SysManage\Models\" />
+    <Folder Include="Areas\SysManage\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
